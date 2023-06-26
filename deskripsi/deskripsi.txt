@@ -1,0 +1,51 @@
+"WEB ABSENSI KARYAWAN BERBASIS QR CODE"
+
+Deskripsi umum :
+Proyek web absensi karyawan dengan QR Code adalah sebuah sistem yang dirancang untuk mengelola dan merekam absensi karyawan menggunakan teknologi QR Code. 
+Tujuan proyek ini adalah untuk memudahkan proses absensi karyawan dengan menggunakan pemindaian QR Code yang terhubung ke platform web.
+Dalam proyek ini, setiap karyawan akan diberikan QR Code yang unik yang dapat dipindai menggunakan perangkat seperti smartphone atau pemindai QR Code. 
+Ketika karyawan memasuki atau meninggalkan area kerja, mereka akan memindai QR Code mereka menggunakan perangkat tersebut.
+Setelah pemindaian dilakukan, sistem akan mengidentifikasi karyawan berdasarkan QR Code yang dipindai dan mencatat informasi absensi, seperti tanggal, waktu masuk atau keluar, serta lokasi.
+Data ini kemudian akan disimpan dalam database yang terhubung ke platform web.Platform web akan menyediakan antarmuka yang memungkinkan admin atau manajer untuk melihat dan mengelola data absensi karyawan.
+Mereka dapat melihat laporan absensi atau kustom, serta melakukan analisis data absensi untuk mengambil keputusan terkait kehadiran karyawan.
+Proyek ini memanfaatkan teknologi QR Code untuk mempercepat proses absensi karyawan dan meningkatkan akurasi pencatatan. Selain itu, dengan menggunakan platform web, data absensi dapat diakses secara real-time dan dapat digunakan untuk menghasilkan laporan yang berguna dalam manajemen sumber daya manusia.
+Proyek ini dapat membantu perusahaan atau organisasi dalam mengelola absensi karyawan dengan lebih efisien, mengurangi kesalahan manusia, dan memperoleh data yang akurat untuk pengambilan keputusan yang lebih baik.
+
+
+Latar belakang ide :
+    Ide ini merupakan ide lama yang saya kembangkan kembali dahulu saya pernah ingin membuat sebuah absensi untuk karyawan yang efisien dan bisa diakses realtime serta mudah.
+    Jadi pada waktu SMK saya membuat gambaran dasar dari project ini bermodalkan php,html,css dan template ui dari bootstrap karena pada saat itu masih minim akan pengetahuan tentang bagaimana mengembangkannya menjadi lebih baik dikarekan kurang menguasai bahasa pemrograman secara luas.
+    Lalu sekarang pada kesempatan UAS mata kuliah pemrograman web saya kembali membuka projek saya dahulu dan merombaknya menjadi sebuah website yang lebih baik lagi sekarang.
+    Munculnya ide ini dikarenakan saya melihat sudah ada berbagai macam cara absensi dimulai dari absensi manual,absensi melalu website khusus,absensi dengan sidik jari dan masih banyak lagi.
+    Waktu pengerjaan ini yaitu terhitung 2 minggu dari diumumkannya project ini untuk dibuat,awalnya tidak yakin akan bisa menyelesaikan karena cukup kompleks namun dibantu dengan usaha dan keyakinan akhirnya bisa terselesaikan.
+    Alasan mengapa bisa terselesaikan dengan waktu 2 minggu dikarenakan saya menggabungkan beberapa coding yang saya search di internet,github maupun coding projek saya terdahulu yang membuat projek ini bisa selesai dengan tepat waktu.
+    Dengan adanya ide ini sekiranya mungkin ide saya untuk membuat projek "Web Absensi Karyawan Berbasis QR Code" ini merupakan sebuh ide yang baik dan bisa diterima pengaplikasiannya pada codingan yang saya buat.
+
+
+
+Fitur Aplikasi :
+
+         Login Multi User
+         Dashboard
+         Data Karyawan
+         Data Jabatan
+         Data Shift
+         Data Absensi
+         QR Code
+         Scane Code QR
+         Setting
+         Logout
+
+
+Panduan :
+
+         Aktifkan Apache dan MySQL pada xampp.
+         Buka browser, lalu buka alamat localhost/phpMyAdmin.
+         Buat database baru dengan nama db_absensi.
+         Import database aplikasi kedalam database db_absensi.
+         Jalankan project dengan klik localhost/absensiqrcode.
+         Pada halaman login bisa menggunakan 2 user dibawah ini,yaitu :
+                Login sebagai Admin dengan Email : admin@admin.com dan password : password.
+                Login sebagai Oprator dengan Email : operator@operator.com dan password : password.
+
+
